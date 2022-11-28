@@ -1,26 +1,16 @@
 # Szabó Péter
-- CSS file
-- Home
+- css
+- skins, battlepass
 
 <br>
 
 # Tóth Barna Róbert
+- home
+- Quick play, Comp, Arcade, Game browser
+- game modes
 
 <br>
 
 # Páli Dávid
-
 - maps
 - characters
-- Quick play, Comp, Arcade, Game browser
-- game modes
-- skins
-
-<br>
-<br>
-
-- helyszín
-- korábbi vbk
-- csapatok
-- stadionok
-- gól lövő lista
