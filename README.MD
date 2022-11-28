@@ -1,16 +1,19 @@
-# Szabó Péter
-- css
+# Téma:<br>Overwatch 2
+<br>
+
+# Munka megosztás:
+
+## Szabó Péter
 - skins, battlepass
-
-<br>
-
-# Tóth Barna Róbert
-- home
-- Quick play, Comp, Arcade, Game browser
-- game modes
-
-<br>
-
-# Páli Dávid
 - maps
+- CSS file
+<br>
+
+## Tóth Barna Róbert
+- home
+- game modes
+<br>
+
+## Páli Dávid
 - characters
+- Quick play, Comp, Arcade, Game browser
