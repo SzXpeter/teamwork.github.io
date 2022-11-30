@@ -4,16 +4,17 @@
 # Munka megosztás:
 
 ## Szabó Péter
-- skins, battlepass
+- dps
 - maps
 - CSS file
 <br>
 
 ## Tóth Barna Róbert
 - home
-- game modes
+- skins, battlepass
+- support
 <br>
 
 ## Páli Dávid
-- characters
-- Quick play, Comp, Arcade, Game browser
+- tanks
+- game modes
