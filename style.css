@@ -1,0 +1,41 @@
+#damage div
+{
+    transition: .2s;
+    width: 15vw;
+    height: 17.5vw;
+    font-size: 1vw;
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgba(0, 0, 0, .1);
+    float: left;
+}
+
+#damage div:hover
+{
+    transition: .2s;
+    width: 20vw;
+    height: 22vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#damage div:hover img
+{
+    width: 70%;
+    margin: 2%;
+    transition: .2s;
+}
+
+#damage div img
+{
+    transition: .2s;
+    width: 90%;
+    margin: 5%;
+}
+
+#damage div h2
+{
+    text-align: center;
+    margin: 0.25vw;
+}
