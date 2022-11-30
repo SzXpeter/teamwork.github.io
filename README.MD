@@ -1,4 +1,4 @@
-# Téma:<br>Overwatch 2
+# Téma: Overwatch 2
 <br>
 
 # Munka megosztás:
