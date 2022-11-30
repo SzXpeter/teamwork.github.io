@@ -1,41 +1,161 @@
-#damage div
+body
 {
+    font-size: 1vw;
+}
+
+.character
+{
+    z-index: 2;
     transition: .2s;
     width: 15vw;
     height: 17.5vw;
-    font-size: 1vw;
-    margin-top: 20px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 20px 5vw 4.5vw 4vw;
     background-color: rgba(0, 0, 0, .1);
     float: left;
+    transform: translate(0%);
 }
 
-#damage div:hover
+.character:hover
 {
-    transition: .2s;
-    width: 20vw;
+    transition: .5s;
+    width: 24vw;
     height: 22vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 20px 0 0 0;
 }
 
-#damage div:hover img
+.character:hover .ch-img
 {
-    width: 70%;
-    margin: 2%;
+    width: 0%;
+    margin: 0%;
     transition: .2s;
 }
 
-#damage div img
+.character .ch-img
 {
-    transition: .2s;
+    transition: .5s;
     width: 90%;
     margin: 5%;
 }
 
-#damage div h2
+.character h2
 {
     text-align: center;
     margin: 0.25vw;
+}
+
+.bg-image {
+    background-image: url(https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt030bf3d606661d3c/633f5be164fe5a7d4481a16c/overwatch-section1-feature1.png?width=&format=webply&dpr=2&disable=upscale&quality=80);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    opacity: .5;
+}
+
+header
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transform: translate(0%);
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100px;
+    width: 98%;
+    margin: 10px 1%;
+    border-radius: 30px;
+}
+
+li
+{
+    display: inline;
+    float: right;
+    margin: 0;
+}
+
+li a
+{
+    display: block;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -4px;
+    height: 20px;
+    padding: 27.5px 0;
+    width: 100px;
+    border-radius: 20px;
+}
+  
+li a:hover
+{
+    background-color: rgba(100, 100, 100, 0.5);
+    text-decoration: none;
+}
+
+td img
+{
+    width: 100px;
+    margin-top: 30px;
+}
+
+ul
+{
+    margin-right: 20px;
+}
+
+.active
+{
+    background-color: rgba(255, 162, 0, 1);
+}
+
+.active:hover
+{
+    background-color: rgba(159, 80, 0, 0.8);
+}
+
+header .logo
+{
+    float: left;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.description
+{
+    visibility: hidden;
+}
+
+.character:hover .description
+{
+    transition-delay: .4s;
+    visibility: visible;
+}
+
+.description .minibutton
+{
+    width: 20px;
+}
+
+.description .ability
+{
+    float: left;
+    width: 50px;
+}
+
+.description h2
+{
+    text-align: left;
+    float: left;
+}
+
+.description p
+{
+    clear: both;
 }
