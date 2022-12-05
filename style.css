@@ -1,6 +1,9 @@
+a, p, table,
+
 body
 {
     font-size: 1vw;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 .character
@@ -59,6 +62,14 @@ body
     opacity: .5;
 }
 
+header .logo
+{
+    float: left;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
 header
 {
     list-style-type: none;
@@ -86,7 +97,8 @@ li a
     color: #333;
     text-align: center;
     text-decoration: none;
-    margin-top: -7px;
+    margin-top: -7.5px;
+    margin-bottom: 0px;
     height: 20px;
     padding: 27.5px 0;
     width: 120px;
@@ -118,14 +130,6 @@ ul
 .active:hover
 {
     background-color: rgba(159, 80, 0, 0.8);
-}
-
-header .logo
-{
-    float: left;
-    height: 45px;
-    margin-left: 50px;
-    margin-top: 12px;
 }
 
 .description
