@@ -1,9 +1,50 @@
+a, p, table,
+
 body
 {
-    width: 95vw;
-    margin: 10vh 2.5vw;
-    height: auto;
-    font-size: 15pt;
+    font-size: 1vw;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.character
+{
+    z-index: 2;
+    transition: .2s;
+    width: 17.5vw;
+    height: 22vw;
+    margin: 20px 7.5vw 14vw 7.5vw;
+    background-color: rgba(0, 0, 0, .1);
+    float: left;
+    transform: translate(0%);
+}
+
+.character:hover
+{
+    transition: .5s;
+    width: 32.5vw;
+    height: 35vw;
+    margin: 20px 0 1vw 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.character:hover .ch-img
+{
+    width: 0%;
+    margin: 0%;
+    transition: .2s;
+}
+
+.character .ch-img
+{
+    transition: .5s;
+    width: 90%;
+    margin: 5%;
+}
+
+.character h2
+{
+    text-align: center;
+    margin: 0.25vw;
 }
 
 .bg-image {
@@ -183,12 +224,15 @@ ul
     background-color: rgba(159, 80, 0, 0.8);
 }
 
-#ashe
+header .logo
 {
-    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt83273c22d0b94966/631a8ba0636d390da7825df1/1600_Ashe.jpg);
+    float: left;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 12px;
 }
 
-#bastion
+.description
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltcd0d5eb4b44d35f1/631a8b92e7bdcf0dd996c8e5/1600_Bastion.jpg);
 }
