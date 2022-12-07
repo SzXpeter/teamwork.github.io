@@ -1,8 +1,5 @@
 body
 {
-    width: 95vw;
-    margin: 10vh 2.5vw;
-    height: auto;
     font-size: 15pt;
 }
 
@@ -204,4 +201,10 @@ ul
 .active:hover
 {
     background-color: rgba(159, 80, 0, 0.8);
+}
+
+div
+{
+    width: 95vw;
+    margin: 0 2.5vw;
 }
