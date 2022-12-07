@@ -1,4 +1,10 @@
-a, p, table,
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+}
 
 body
 {
@@ -49,6 +55,22 @@ body
 
 .bg-image {
     background-image: url(https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt030bf3d606661d3c/633f5be164fe5a7d4481a16c/overwatch-section1-feature1.png?width=&format=webply&dpr=2&disable=upscale&quality=80);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    opacity: .5;
+    ;
+}
+
+.bg-image2 {
+    background-image: url(https://wallpaperset.com/w/full/0/2/0/31167.jpg);
     filter: blur(3px);
     -webkit-filter: blur(3px);
     height: 100%;
