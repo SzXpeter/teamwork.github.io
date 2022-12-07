@@ -17,15 +17,18 @@
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf8e9415141b0ec36/631a8b65e7bdcf0dd996c8e1/1600_Dva.jpg);
 }   
 
+/* SUPPORT */
+
 #ana
 {
-
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt97ec60cf959e81f3/631a8babe337fa0dc7263beb/1600_Ana.jpg);
 }
 
 #baptiste
 {
-
+background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt7409943072f0d44c/631a8b99f581050de0035dfa/1600_Baptiste.jpg);
 }
+
 
 #brigitte
 {
@@ -69,3 +72,9 @@
 
 
 
+
+
+#wrecking_ball
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt55cca804cba3d52e/631a8a691566e20e82f30278/1600_Wrecking_Ball.jpg);
+}
