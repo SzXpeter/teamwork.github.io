@@ -85,6 +85,7 @@ body
     height: 0px;
     visibility: hidden;
     opacity: 0;
+    transition-duration: 1s;
     /* text-shadow: 1px 1px 0px white; */
 }
 
