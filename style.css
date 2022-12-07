@@ -31,9 +31,10 @@ body
     background-color: rgba(100, 100, 100, .3);
     border-radius: 15px;
     z-index: 0;
+    transition: 0.1s;
 }
 
-.ch-img:hover
+.ch-img:hover 
 {
     transform: scale(125%);
     background-color: rgb(243, 158, 0);
@@ -58,6 +59,7 @@ body
     background-color: rgba(50, 50, 50, .5);
     visibility: visible;
     font-size: 2em;
+    opacity: 1;
 }
 
 .description.last h1
@@ -77,11 +79,15 @@ body
     width: 0px;
     height: 0px;
     visibility: hidden;
+    opacity: 0;
+    /* text-shadow: 1px 1px 0px white; */
 }
 
 .description p, .description h2, .description h1
 {
     margin: 15px;
+    visibility: hidden;
+
 }
 
 .ch-img:hover + .description
@@ -90,6 +96,7 @@ body
     visibility: visible;
     width: 100%;
     height: 70vh;
+    opacity: 1;
 }
 
 .description .minibutton
@@ -186,9 +193,11 @@ ul
 #ashe
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt83273c22d0b94966/631a8ba0636d390da7825df1/1600_Ashe.jpg);
+    transition-duration: 1s;
 }
 
 #bastion
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltcd0d5eb4b44d35f1/631a8b92e7bdcf0dd996c8e5/1600_Bastion.jpg);
+    transition-duration: 1s;
 }
