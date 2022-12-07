@@ -65,6 +65,11 @@ body
 .description.last h1
 {
     margin-top: 10vh;
+    opacity: 1;
+}
+
+.description.last p{
+    opacity: 1;
 }
 
 .description
@@ -86,17 +91,18 @@ body
 .description p, .description h2, .description h1
 {
     margin: 15px;
-    /* opacity: 0; */
+    opacity: 0;
     transition: .5s;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .ch-img:hover + .description p, .ch-img:hover + .description h2, .ch-img:hover + .description h1
 {
     transition-delay: 1s;
-    /* opacity: 1; */
+    opacity: 1;
     transition: .5s;
-    visibility: visible;
+    transition-delay: 0.5s;
+    /* visibility: visible; */
 }
 
 .ch-img:hover + .description
