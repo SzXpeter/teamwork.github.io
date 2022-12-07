@@ -109,6 +109,7 @@ body
     height: 0px;
     visibility: hidden;
     opacity: 0;
+    transition-duration: 1s;
     /* text-shadow: 1px 1px 0px white; */
 }
 
@@ -229,14 +230,3 @@ ul
     background-color: rgba(159, 80, 0, 0.8);
 }
 
-#ashe
-{
-    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt83273c22d0b94966/631a8ba0636d390da7825df1/1600_Ashe.jpg);
-    transition-duration: 1s;
-}
-
-#bastion
-{
-    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltcd0d5eb4b44d35f1/631a8b92e7bdcf0dd996c8e5/1600_Bastion.jpg);
-    transition-duration: 1s;
-}
