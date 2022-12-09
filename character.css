@@ -1,3 +1,5 @@
+/* DAMAGE */
+
 #ashe
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt83273c22d0b94966/631a8ba0636d390da7825df1/1600_Ashe.jpg);
@@ -19,7 +21,7 @@
 }
 
 
-
+/* TANK */
 
 #doomfist
 {
@@ -45,4 +47,67 @@
 #winston
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf9557fb8c51d1c43/631a8aa4eef3ae0e03c74396/1600_Winston.jpg);
+}
+
+#zarya
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltde66354cc09d1bb6/631a8a60be2fcf0db5eea4b4/1600_Zarya.jpg);
+}
+
+#junker_queen
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt3a1be33596e910c4/631a8b49a0ff920e11e791bc/2600_Junker_Queen.jpg);
+}
+
+#roadhog
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt39930f17f179a7bd/631a8ae5eef3ae0e03c7439e/1600_Roadhog.jpg);
+}
+
+#reinhardt
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8215ad99f856a606/631a8b03636d390da7825ddb/1600_Reinhardt.jpg);
+}
+
+
+/* SUPPORT */
+
+#ana
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt97ec60cf959e81f3/631a8babe337fa0dc7263beb/1600_Ana.jpg);
+}
+
+#baptiste
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt7409943072f0d44c/631a8b99f581050de0035dfa/1600_Baptiste.jpg);
+}
+
+#brigitte
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf362dee5d41929be/631a8b7feef3ae0e03c743b6/1600_Brigitte.jpg);
+}
+
+#kiriko
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt74033e83230dc856/631a8b34f581050de0035df2/1600_Kiriko.jpg);
+}
+
+#lucio
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt77c5cddf632a67d7/631a8b2bf581050de0035dee/1600_Lucio.jpg);
+}
+
+#mercy
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blta556d4020266a6db/631a8b1eeef3ae0e03c743a2/1600_Mercy.jpg);
+}
+
+#moira
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8188c6691a334d73/631a8b17be2fcf0db5eea4bc/1600_Moira.jpg);
+}
+
+#zenyatta
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt31b9997e4476de74/631a8a57eef3ae0e03c7438a/1600_Zenyatta.jpg);
 }
