@@ -20,6 +20,70 @@
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt6a6dc9da49d17b95/631a8b5feef3ae0e03c743ae/2600_Echo.jpg);
 }
 
+#genji
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt22836a6cfd1c3335/631a8b576d5f7a0df8d92798/1600_Genji.jpg);
+}
+
+#hanzo
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt94cbaa8364b60dc7/631a8b50eef3ae0e03c743aa/1600_Hanzo.jpg);
+}
+
+#junkrat
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf1d3568684bc383f/631a8b430e1b4f0e7b89a530/1600_Junkrat.jpg);
+}
+
+#mei
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltd0eb5529be69efbc/633773a6f87c00687e8ef21a/1600_Mei_02.jpg);
+}
+
+#pharah
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blte7cef1a9a6df49eb/631a8af2a0ff920e11e791b8/1600_Pharah.jpg);
+}
+
+#reaper
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt2c301b09e7e28f15/631a8af9e7bdcf0dd996c8d1/1600_Reaper.jpg);
+}
+
+#sojourn
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt4e7eea062ae71ec8/631a8ad36d5f7a0df8d9278c/1600_Sojourn.jpg);
+}
+
+#soldier-76
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltaa73ebe257f75710/631a8ac985af980dae7a2eea/1600_Soldier_76.jpg);
+}
+
+#sombra
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt73c08ba684761b8a/631a8ac1f581050de0035de2/1600_Sombra.jpg);
+}
+
+#symmetra
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8bcd4a477c648ec3/631a8ab9a0ff920e11e791b0/1600_Symmetra.jpg);
+}
+
+#torbjörn
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8af1bdb781ba7048/631a8ab1eef3ae0e03c7439a/1600_Torbjorn.jpg);
+}
+
+#tracer
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltb9e273d8483050b8/631a8aab3ab6f40dd2a90699/1600_Tracer.jpg);
+}
+
+#widowmaker
+{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf1291f31fd38e28b/631a8a981613910e6926bfc8/1600_Widowmaker.jpg);
+}
 
 /* TANK */
 
@@ -31,7 +95,7 @@
 #d_va
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf8e9415141b0ec36/631a8b65e7bdcf0dd996c8e1/1600_Dva.jpg);
-    font-size: 0.75em;
+    font-size: 0.78em;
 }   
 
 #wrecking_ball
