@@ -5,7 +5,7 @@
 # Munka megosztás:
 
 ## Szabó Péter
-- dps
+- damage
 - maps
 - CSS file
 <br>
@@ -18,4 +18,4 @@
 
 ## Páli Dávid
 - tanks
-- game modes
+- gameplay
