@@ -203,22 +203,27 @@ ul
     background-color: rgba(159, 80, 0, 0.8);
 }
 
-h1
+.description h1
 {
     margin: 70px 10px 10px 10px;
+    font-size: 2.5em;
+    color: orangered;
 }
 
-h2
+.description h2
 {
     margin: 10px 15px;
+    color: orange;
+    font-size: 2em;
 }
 
-h3
+.description h3
 {
     margin: 0 20px;
+    font-size: 1.5em;
 }
 
-p
+.description p
 {
     margin: 0 10px 20px 30px;
 }
