@@ -6,14 +6,14 @@
 
 ## Szabó Péter
 - damage
-- maps
+- skins, battlepass
 - CSS file
 <br>
 
 ## Tóth Barna Róbert
 - home
-- skins, battlepass
 - support
+- maps
 <br>
 
 ## Páli Dávid
