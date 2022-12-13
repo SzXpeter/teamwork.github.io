@@ -1,9 +1,76 @@
+
+body
+{
+    margin: 0;
+}
 table
 {
-    margin: 50px 200px 0px 200px;
+    margin: 50px 200px 150px 200px;
     opacity: 1;    
+    position: relative;
 }
-p
+h2
 {
-    z-index: 3;
+    
+    text-align: center;
+}
+
+h1
+{
+    width: 270px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 10;
+    border: 15px solid rgb(255, 89, 0);
+    border-radius: 20%;
+    border-style: outset;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+.push_bg>div{
+    padding-top: 100px;
+}
+iframe
+{
+    padding: 0 10px;
+    height: 25vw;
+    width: 50vw;
+}
+
+.text
+{
+    border: 15px solid rgb(255, 89, 0);
+    border-radius: 20%;
+    border-style: outset;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
+.push_bg, .control_bg, .escort_bg
+{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.control_bg, .escort_bg
+{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.push_bg
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://cdn1.dotesports.com/wp-content/uploads/2021/06/04023112/OW2_Blizzcon_2019_Screenshot_Push_Gameplay_01.jpg);
+}
+.control_bg
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://primagames.com/wp-content/uploads/2022/10/Best-Controller-Settings-for-Overwatch-2-Settings-Guide.jpg?fit=1200%2C675);
+}
+
+.escort_bg
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/e/e8/OW2_Escort.jpg?width=1280);
 }
