@@ -5,7 +5,7 @@ body
 }
 table
 {
-    margin: 50px 200px 150px 200px;
+    margin: 150px 200px 150px 200px;
     opacity: 1;    
     position: relative;
 }
@@ -15,7 +15,7 @@ h2
     text-align: center;
 }
 
-h1
+.title
 {
     width: 270px;
     margin: 0px auto;
@@ -46,7 +46,7 @@ iframe
     background-color: rgba(100, 100, 100, 0.7);
 }
 
-.push_bg, .control_bg, .escort_bg
+.push_bg, .control_bg, .escort_bg, .hybrid_bg, .ctf_bg
 {
     width: 100vw;
     height: 100vh;
@@ -55,7 +55,7 @@ iframe
     background-size: cover;
 }
 
-.control_bg, .escort_bg
+.control_bg, .escort_bg, .hybrid_bg, .ctf_bg
 {
     padding-top: 100px;
     margin-top: -100px;
@@ -72,5 +72,15 @@ iframe
 
 .escort_bg
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/e/e8/OW2_Escort.jpg?width=1280);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
+}
+
+.hybrid_bg
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
+}
+
+.ctf_bg
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://cdn.mos.cms.futurecdn.net/6Y3b326hAC2BTcE8gLBMxa.jpg);
 }
