@@ -51,11 +51,6 @@ body
     -webkit-filter: blur(0);
 }
 
-#damage, #tank, #support
-{
-    height: 0;
-}
-
 .ch-img
 {
     position: relative;
@@ -167,14 +162,14 @@ header .logo-s
 
 header
 {
-    margin: 0 1vw;
     position: fixed;
     list-style-type: none;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.7);
     height: 50px;
-    width: 98vw;
+    width: 98%;
     top: 2vh;
+    left: 1%;
     border-radius: 30px;
     z-index: 10;
 }
@@ -242,7 +237,7 @@ ul
 
 .description h3
 {
-    margin: 0 20px;
+    margin: 10px 10px 0 20px;
     font-size: 1.5em;
 }
 
