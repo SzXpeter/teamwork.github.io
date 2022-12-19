@@ -20,7 +20,7 @@ html, body
     z-index: -5;
 }
 
-#PLAY, #gamemodes
+#PLAY .bg-image, #gamemodes .bg-image
 {
     background-position: center;
     background-repeat: no-repeat;
