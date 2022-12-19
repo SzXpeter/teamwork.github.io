@@ -1,4 +1,4 @@
-body
+html, body
 {
     font-size: 15pt;
     font-family: 'Poppins', sans-serif;
@@ -17,6 +17,7 @@ body
     left: 0;
     position: fixed;
     opacity: .5;
+    z-index: -5;
 }
 
 .video-bg
@@ -56,12 +57,26 @@ body
     position: relative;
     width: 90px;
     height: 90px;
-    margin: 86vh -10px -85vh 10px;
     background-color: rgba(100, 100, 100, .3);
     border-radius: 15px;
     z-index: 3;
     transition: 0.1s;
     border: 4px solid rgba(100, 100, 100, .3);
+}
+
+#damage .ch-img
+{
+    margin: 86vh -70px -85vh 70px;
+}
+
+#support .ch-img
+{
+    margin: 86vh -520px -85vh 520px;
+}
+
+#tank .ch-img
+{
+    margin: 86vh -520px -85vh 520px;
 }
 
 .ch-img:hover 
@@ -174,14 +189,14 @@ header
     z-index: 10;
 }
 
-li
+header li
 {
     display: inline;
     float: right;
     margin: 0;
 }
 
-li a
+header li a
 {
     display: block;
     color: #333;
@@ -194,7 +209,7 @@ li a
     border-radius: 15px;
 }
   
-li a:hover
+header li a:hover
 {
     background-color: rgba(100, 100, 100, 0.5);
     text-decoration: none;
@@ -206,7 +221,7 @@ td img
     margin-top: 30px;
 }
 
-ul
+header ul
 {
     margin-right: 20px;
 }
@@ -246,35 +261,23 @@ ul
     margin: 0 10px 20px 30px;
 }
 
-@media screen and (max-width: 1450px)
-{
-    header .logo
-    {
-        width: 0;
-    }
-
-    header .logo-s
-    {
-        float: left;
-        width: 40px;
-        margin-left: 20px;
-        margin-top: -15px;
-    }
-}
-
-/* Gameplay */
-#gameplay
+/* Gamemodes */
+#gamemodes
 {
     margin: 0;
     color: white;
 }
-table
+
+#gamemodes table
 {
     margin: 150px 200px 150px 200px;
     opacity: 1;    
     position: relative;
+    border-collapse: collapse;
 }
-#gameplay h2
+
+
+#gamemodes h2
 {
     text-align: center;
 }
@@ -284,17 +287,19 @@ table
     width: 270px;
     margin: 0px auto;
     position: relative;
-    z-index: 10;
+    z-index: 5;
     border: 15px solid rgb(255, 89, 0);
     border-radius: 20%;
     border-style: outset;
     text-align: center;
     background-color: rgba(100, 100, 100, 0.7);
 }
+
 .push_bg>div{
     padding-top: 300px;
 }
-iframe
+
+#gamemodes iframe
 {
     padding: 0 10px;
     height: 25vw;
@@ -360,3 +365,18 @@ iframe
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
 }
 
+@media screen and (max-width: 1450px)
+{
+    header .logo
+    {
+        width: 0;
+    }
+
+    header .logo-s
+    {
+        float: left;
+        width: 40px;
+        margin-left: 20px;
+        margin-top: -15px;
+    }
+}

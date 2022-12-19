@@ -1,31 +1,124 @@
-#PLAY div
+#PLAY
+{
+    margin: 0;
+}
+
+#PLAY .mode
 {
     height: 1000px;
     width: 100%;
-    margin-left: -10px;
+    z-index: 0;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: -55px;
 }
 
-#quick_play
+#PLAY h1
 {
-    background-color: aqua;
+    margin: 100px 0 -10px 10px;
 }
 
-#competitive
+#PLAY h2
 {
-    background-color: brown;
+    margin: 20px 0 -10px 15px;
 }
 
-#arcade
+#PLAY .mode li
 {
-    background-color: #fff;
+    margin-top: 10px;
 }
 
-#game_browse
+#PLAY p
 {
-    background-color: black;
+    margin-left: 20px;
 }
 
-#experimental
+#PLAY table
 {
-    background-color: blueviolet;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#PLAY td
+{
+    width: 200px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#PLAY th
+{
+    width: 200px;
+    border: 1px solid black;
+}
+
+#PLAY td img
+{
+    margin-top: 10px;
+    width: 100px;
+}
+
+#unranked .bg-image
+{
+    z-index: -1;
+    position: absolute;
+    background-image: url(Unranked.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#competitive .bg-image
+{
+    z-index: -1;
+    position: absolute;
+    background-image: url(Competitive.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#arcade .bg-image
+{
+    z-index: -1;
+    position: absolute;
+    background-image: url(Arcade.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#game_browse .bg-image
+{
+    z-index: -1;
+    position: absolute;
+    background-image: url(Game\ Browse.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#training .bg-image
+{
+    z-index: -1;
+    position: absolute;
+    background-image: url(Training.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+    padding-bottom: 55px;
+    margin-bottom: 0;
 }

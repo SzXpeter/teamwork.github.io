@@ -18,6 +18,7 @@
 #echo
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt6a6dc9da49d17b95/631a8b5feef3ae0e03c743ae/2600_Echo.jpg);
+    font-size: 0.9em;
 }
 
 #genji
@@ -64,6 +65,7 @@
 #sombra
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt73c08ba684761b8a/631a8ac1f581050de0035de2/1600_Sombra.jpg);
+    font-size: 0.9em;
 }
 
 #symmetra
@@ -98,17 +100,17 @@
 #d_va
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf8e9415141b0ec36/631a8b65e7bdcf0dd996c8e1/1600_Dva.jpg);
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 #d_va h3
 {
-    margin: 10px 10px 0 20px;
+    margin: 5px 10px 0 20px;
 }
 
 #d_va p
 {
-    margin: 0 10px 10px 30px;
+    margin: 0 10px 5px 30px;
 }
 
 #wrecking_ball
@@ -176,6 +178,17 @@
 #brigitte
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf362dee5d41929be/631a8b7feef3ae0e03c743b6/1600_Brigitte.jpg);
+    font-size: 0.9em;
+}
+
+#brigitte h3
+{
+    margin: 10px 10px 0 20px;
+}
+
+#brigitte p
+{
+    margin: 0 10px 5px 30px;
 }
 
 #kiriko
@@ -186,11 +199,13 @@
 #lucio
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt77c5cddf632a67d7/631a8b2bf581050de0035dee/1600_Lucio.jpg);
+    font-size: 0.95em;
 }
 
 #mercy
 {
     background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blta556d4020266a6db/631a8b1eeef3ae0e03c743a2/1600_Mercy.jpg);
+    font-size: 0.9em;
 }
 
 #moira

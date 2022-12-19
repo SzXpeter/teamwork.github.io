@@ -14,27 +14,123 @@
     <!-- <div class="bg-image"></div> -->
     <header>
         <ul>
-            <li><a href="Skins.html" class="active">Skins</a></li>
             <li><a href="Support.html">Support</a></li>
             <li><a href="Damage.html">Damage</a></li>
             <li><a href="Tank.html">Tank</a></li>
             <li><a href="Maps.html">Maps</a></li>
-            <li><a href="Gameplay.html">Gameplay</a></li>
+            <li><a href="Gamemodes.html">Gamemodes</a></li>
+            <li><a href="PLAY.html" class="active">PLAY</a></li>
             <li><a href="index.html">Home</a></li>
           </ul>
           <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_text_logo.svg.png" alt="" class="logo"></a>
           <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_logo.svg.png" alt="" class="logo-s"></a>
     </header>
 
-    <div id="quick_play"></div>
+    <div id="unranked" class="mode">
+        <div class="bg-image"></div>
+        <h1>Unranked</h1>
+        <p>
+            Unranked is one of the Plays mode of Overwatch. This  mode offers a more casual experience as opposed to Competitive Play, and as such has less strict rules in both scoring and matchmaking. However, Blizzard's forced loss system is still in place as you will, quite literally, be forced to lose matches.
+        </p>
 
-    <div id="competitive"></div>
+        <h2>Matchmaking</h2>
+        <p>Players are matched based on several factors, including but not limited to:</p>
+        <ul>
+            <li>
+                <b>Skill:</b> The matchmaking system will, first and foremost, try to group players with and against players of similar skill. The game represents "skill" as a hidden Matchmaking Rating, or MMR, which is determined by a player's performance in Unranked.
+            </li>
+            <li>
+                <b>Time:</b> The matchmaking system will try to find a match within a certain time period so the player doesn't have to wait for too long.
+            </li>
+            <li>
+                <b>Ping:</b> Players with servers close to one another are prioritized, to minimize lag and improve the gaming experience.</li>
+            <li>
+                <b>Group size:</b> The matchmaking system will attempt to find groups of equal sizes to match against each other. If four players are looking for a game together, the matchmaker will try to put them against another pre-made group of four.
+            </li>
+            <li>
+                <b>Account level:</b> The matchmaking system will attempt to group players together based on overall team level and match players with similar account levels against players of similar levels. If too many low level accounts are in queue at one time it will attempt to match low lvl players against other low level players regardless of MMR.
+            </li>
+        </ul>
+    
+        <h2>Penalties</h2>
+        <p>
+            As this mode is intended for a more casual experience, players may leave a match prematurely should they wish, which will then be backfilled. However, repeatedly leaving a match before it ends will incur a -75% XP penalty on the player on subsequent matches. This penalty can only be removed by playing multiple matches without leaving prematurely.
+        </p>
+    </div>
 
-    <div id="arcade"></div>
+    <div id="competitive" class="mode">
+        <div class="bg-image"></div>
+        <h1>Competitive</h1>
+        <p>
+            First, in order to receive any rewards, you have to complete the "Competitive Rewards Qualification" challenge by winning 25 games in Role Queue or Open Queue.
+        </p>
 
-    <div id="game_browse"></div>
+        <h2>Rank Rewards</h2>
+        <p>Your rank rewards are based on your final ranks and the highest rank across Role Queue and Open Queue.</p>
 
-    <div id="experimental"></div>
+        <h2>Ranks</h2>
+        <p>
+            Ranks are broken up into seven medals that represent each skill tier. Each one has five numerical divisions within it that ascend until you break into the next highest tier. So if you're Gold 1, win seven games and go up in rank, you'll be Platinum 5.
+        </p>
+        <table>
+            <tr>
+                <th>Rank Picture</th>
+                <td><img src="https://img.game8.co/3595329/4ac389a06c3676e913af084a8fb4896d.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591657/803d6b389d33956b8736c826a4d79072.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591654/d2c273e41b1e5e70f65e32f85c3f9fd1.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591655/34a3e8c0f67fb8696a1f771a60322bfc.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591656/f318f92a1875babe0b6655b8e96f60d2.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591653/30c21c39e35d2baac2403abd5a4aff2a.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591651/e3587d93c61e715bf75877a43a2cf783.png/show" alt=""></td>
+                <td><img src="https://img.game8.co/3591652/7cba085af5ec52c5c460bd99ec5bc120.png/show" alt=""></td>
+            </tr>
+            <tr>
+                <th>Rank</th>
+                <td>Bronze</td>
+                <td>Silver</td>
+                <td>Gold</td>
+                <td>Platinum</td>
+                <td>Diamond</td>
+                <td>Master</td>
+                <td>Grand Master</td>
+                <td>TOP 500</td>
+            </tr>
+            <tr>
+                <th>Rank tiers</th>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>5-1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Rank rewards</th>
+                <td>65</td>
+                <td>125</td>
+                <td>250</td>
+                <td>500</td>
+                <td>750</td>
+                <td>1200</td>
+                <td>1750</td>
+                <td>1750</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="arcade" class="mode">
+        <div class="bg-image"></div>
+    </div>
+
+    <div id="game_browse" class="mode">
+        <div class="bg-image"></div>
+    </div>
+
+    <div id="training" class="mode">
+        <div class="bg-image"></div>
+    </div>
 
 </body>
 </html>
