@@ -10,7 +10,7 @@
     z-index: 0;
     position: relative;
     padding-top: 20px;
-    margin-bottom: -55px;
+    margin-bottom: 55px;
 }
 
 #PLAY h1
@@ -87,14 +87,31 @@
 
 #arcade .bg-image
 {
-    z-index: -1;
-    position: absolute;
-    background-image: url(Arcade.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    position: absolute;
     width: 100%;
+    background-image: url(Arcade.PNG);
     opacity: 0.6;
+}
+
+#arcade
+{
+    text-align: center;
+    font-size: 20pt;
+}
+
+#arcade ul
+{
+    list-style: none;
+}
+
+#arcade a
+{
+    text-decoration: none;
+    color: #444;
 }
 
 #game_browse .bg-image
