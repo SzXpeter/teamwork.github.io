@@ -20,6 +20,16 @@ html, body
     z-index: -5;
 }
 
+#PLAY, #gamemodes
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
 .video-bg
 {
     height: 100vh;
