@@ -63,36 +63,18 @@
 
 #unranked .bg-image
 {
-    z-index: -1;
-    position: absolute;
     background-image: url(Unranked.PNG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     opacity: 0.6;
 }
 
 #competitive .bg-image
 {
-    z-index: -1;
-    position: absolute;
     background-image: url(Competitive.PNG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     opacity: 0.6;
 }
 
 #arcade .bg-image
 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    position: absolute;
-    width: 100%;
     background-image: url(Arcade.PNG);
     opacity: 0.6;
 }
@@ -116,25 +98,18 @@
 
 #game_browse .bg-image
 {
-    z-index: -1;
-    position: absolute;
     background-image: url(Game\ Browse.PNG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     opacity: 0.6;
+}
+
+#game_browse p
+{
+    margin-right: 40%;
 }
 
 #training .bg-image
 {
-    z-index: -1;
-    position: absolute;
     background-image: url(Training.PNG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     opacity: 0.6;
     padding-bottom: 55px;
     margin-bottom: 0;

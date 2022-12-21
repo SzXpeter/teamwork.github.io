@@ -295,7 +295,7 @@ header ul
 .title
 {
     width: 270px;
-    margin: 0px auto;
+    margin: 100px auto;
     position: relative;
     z-index: 5;
     border: 15px solid rgb(255, 89, 0);
@@ -311,6 +311,7 @@ header ul
 
 #gamemodes iframe
 {
+    float: left;
     padding: 0 10px;
     height: 25vw;
     width: 50vw;
@@ -318,11 +319,15 @@ header ul
 
 .text
 {
+    width: 450px;
     border: 15px solid rgb(255, 89, 0);
     border-radius: 20%;
     border-style: outset;
     text-align: center;
     background-color: rgba(100, 100, 100, 0.7);
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
 .push_bg, .control_bg, .escort_bg, .hybrid_bg, .ctf_bg, .elimination_bg, .deathmatch_bg, .team_deathmatch_bg
@@ -336,7 +341,7 @@ header ul
     margin-top: -200px;
 }
 
-.push_bg
+/* .push_bg
 {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://cdn1.dotesports.com/wp-content/uploads/2021/06/04023112/OW2_Blizzcon_2019_Screenshot_Push_Gameplay_01.jpg);
 }
@@ -373,7 +378,7 @@ header ul
 .team_deathmatch_bg
 {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
-}
+} */
 
 @media screen and (max-width: 1450px)
 {
