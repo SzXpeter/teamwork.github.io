@@ -5,7 +5,6 @@ html, body
 }
 
 .bg-image {
-    background-image: url(https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt030bf3d606661d3c/633f5be164fe5a7d4481a16c/overwatch-section1-feature1.png?width=&format=webply&dpr=2&disable=upscale&quality=80);
     filter: blur(3px);
     -webkit-filter: blur(3px);
     width: 100vw;
@@ -286,6 +285,16 @@ header ul
     border-collapse: collapse;
 }
 
+.text.floatl, iframe.floatl
+{
+    float: left;
+}
+
+.text.floatr, iframe.floatr
+{
+    float: right;
+
+}
 
 #gamemodes h2
 {
@@ -303,6 +312,7 @@ header ul
     border-style: outset;
     text-align: center;
     background-color: rgba(100, 100, 100, 0.7);
+    margin-bottom: -20px;
 }
 
 .push_bg>div{
@@ -311,11 +321,11 @@ header ul
 
 #gamemodes iframe
 {
-    float: left;
     padding: 0 10px;
     height: 25vw;
     width: 50vw;
 }
+
 
 .text
 {
@@ -324,10 +334,22 @@ header ul
     border-radius: 20%;
     border-style: outset;
     text-align: center;
-    background-color: rgba(100, 100, 100, 0.7);
-    float: left;
     margin-left: 200px;
+    background-color: rgba(100, 100, 100, 0.7);
     margin-top: 50px;
+}
+
+.gamemodecontent
+{
+    min-height: 1000px;
+    position: relative;
+    margin-bottom: 85px;
+    
+}
+
+.szexpéter
+{
+    padding-top: 200px;
 }
 
 .push_bg, .control_bg, .escort_bg, .hybrid_bg, .ctf_bg, .elimination_bg, .deathmatch_bg, .team_deathmatch_bg
@@ -341,44 +363,47 @@ header ul
     margin-top: -200px;
 }
 
-/* .push_bg
+#gamemodes .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://cdn1.dotesports.com/wp-content/uploads/2021/06/04023112/OW2_Blizzcon_2019_Screenshot_Push_Gameplay_01.jpg);
+    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2021/06/04023112/OW2_Blizzcon_2019_Screenshot_Push_Gameplay_01.jpg);
+    opacity: .8;
+    margin-top: -100px;
 }
-.control_bg
+#control .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://primagames.com/wp-content/uploads/2022/10/Best-Controller-Settings-for-Overwatch-2-Settings-Guide.jpg?fit=1200%2C675);
-}
-
-.escort_bg
-{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
+    background-image: url(https://primagames.com/wp-content/uploads/2022/10/Best-Controller-Settings-for-Overwatch-2-Settings-Guide.jpg?fit=1200%2C675);
 }
 
-.hybrid_bg
+#escort .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
 }
 
-.ctf_bg
+#hybrid .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://cdn.mos.cms.futurecdn.net/6Y3b326hAC2BTcE8gLBMxa.jpg);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
 }
 
-.elimination_bg
+#ctf .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://d.newsweek.com/en/full/2128066/overwatch-2-doomfist-pharah-batiste-winston.png);
+    background-image: url(https://cdn.mos.cms.futurecdn.net/6Y3b326hAC2BTcE8gLBMxa.jpg);
 }
 
-.deathmatch_bg
+#elimination .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://d.newsweek.com/en/full/2128066/overwatch-2-doomfist-pharah-batiste-winston.png);
+    background-image: url(https://d.newsweek.com/en/full/2128066/overwatch-2-doomfist-pharah-batiste-winston.png);
 }
 
-.team_deathmatch_bg
+#deathmatch .bg-image
 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
-} */
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PLUGPFVKID1504108278330.jpg);
+}
+
+#team_deathmatch .bg-image
+{
+    background-image: url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
+    padding-bottom: 100px;
+}
 
 @media screen and (max-width: 1450px)
 {
