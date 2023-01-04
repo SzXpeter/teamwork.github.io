@@ -472,13 +472,13 @@ header ul
 #unranked .bg-image
 {
     background-image: url(Unranked.PNG);
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 #competitive .bg-image
 {
     background-image: url(Competitive.PNG);
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #arcade .bg-image
