@@ -10,19 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body id="PLAY">
-    <header>
-        <ul>
-            <li><a href="Support.html">Support</a></li>
-            <li><a href="Damage.html">Damage</a></li>
-            <li><a href="Tank.html">Tank</a></li>
-            <li><a href="Maps.html">Maps</a></li>
-            <li><a href="Gamemodes.html">Gamemodes</a></li>
-            <li><a href="PLAY.html" class="active">PLAY</a></li>
-            <li><a href="index.html">Home</a></li>
-          </ul>
-          <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_text_logo.svg.png" alt="" class="logo"></a>
-          <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_logo.svg.png" alt="" class="logo-s"></a>
-    </header>
+    <div class="header">
+        <div class="dropdown">
+            <span>Menu</span>
+            <a class="dropdown-content" href="Support.html">Support</a>
+            <a class="dropdown-content" href="Damage.html">Damage</a>
+            <a class="dropdown-content" href="Tank.html">Tank</a>
+            <a class="dropdown-content" href="Maps.html">Maps</a>
+            <a class="dropdown-content" href="Gamemodes.html">Gamemodes</a>
+            <a class="dropdown-content active" href="PLAY.html">PLAY</a>
+            <a class="dropdown-content" href="index.html">Home</a>
+        </div>
+        <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_text_logo.svg.png" alt="" class="logo"></a>
+        <a href="https://overwatch.blizzard.com/en-us/" target="overwatch"><img src="Overwatch_2_logo.svg.png" alt="" class="logo-s"></a>
+    </div class="header">
 
     <div id="unranked" class="mode">
         <div class="bg-image"></div>
@@ -70,52 +71,54 @@
         <p>
             Ranks are broken up into seven medals that represent each skill tier. Each one has five numerical divisions within it that ascend until you break into the next highest tier. So if you're Gold 1, win seven games and go up in rank, you'll be Platinum 5.
         </p>
-        <table>
-            <tr>
-                <th>Rank Picture</th>
-                <td><img src="https://img.game8.co/3595329/4ac389a06c3676e913af084a8fb4896d.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591657/803d6b389d33956b8736c826a4d79072.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591654/d2c273e41b1e5e70f65e32f85c3f9fd1.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591655/34a3e8c0f67fb8696a1f771a60322bfc.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591656/f318f92a1875babe0b6655b8e96f60d2.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591653/30c21c39e35d2baac2403abd5a4aff2a.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591651/e3587d93c61e715bf75877a43a2cf783.png/show" alt=""></td>
-                <td><img src="https://img.game8.co/3591652/7cba085af5ec52c5c460bd99ec5bc120.png/show" alt=""></td>
-            </tr>
-            <tr>
-                <th>Rank</th>
-                <td>Bronze</td>
-                <td>Silver</td>
-                <td>Gold</td>
-                <td>Platinum</td>
-                <td>Diamond</td>
-                <td>Master</td>
-                <td>Grand Master</td>
-                <td>TOP 500</td>
-            </tr>
-            <tr>
-                <th>Rank tiers</th>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>5-1</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <th>Rank rewards</th>
-                <td>65</td>
-                <td>125</td>
-                <td>250</td>
-                <td>500</td>
-                <td>750</td>
-                <td>1200</td>
-                <td>1750</td>
-                <td>1750</td>
-            </tr>
-        </table>
+        <div class="resp-table">
+            <table>
+                <tr>
+                    <th>Rank Picture</th>
+                    <td><img src="https://img.game8.co/3595329/4ac389a06c3676e913af084a8fb4896d.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591657/803d6b389d33956b8736c826a4d79072.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591654/d2c273e41b1e5e70f65e32f85c3f9fd1.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591655/34a3e8c0f67fb8696a1f771a60322bfc.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591656/f318f92a1875babe0b6655b8e96f60d2.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591653/30c21c39e35d2baac2403abd5a4aff2a.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591651/e3587d93c61e715bf75877a43a2cf783.png/show" alt=""></td>
+                    <td><img src="https://img.game8.co/3591652/7cba085af5ec52c5c460bd99ec5bc120.png/show" alt=""></td>
+                </tr>
+                <tr>
+                    <th>Rank</th>
+                    <td>Bronze</td>
+                    <td>Silver</td>
+                    <td>Gold</td>
+                    <td>Platinum</td>
+                    <td>Diamond</td>
+                    <td>Master</td>
+                    <td>Grand Master</td>
+                    <td>TOP 500</td>
+                </tr>
+                <tr>
+                    <th>Rank tiers</th>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>5-1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>Rank rewards</th>
+                    <td>65</td>
+                    <td>125</td>
+                    <td>250</td>
+                    <td>500</td>
+                    <td>750</td>
+                    <td>1200</td>
+                    <td>1750</td>
+                    <td>1750</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div id="arcade" class="mode">
@@ -128,8 +131,8 @@
             <li><a href="Gamemodes.html#elimination">Elimination</a></li>
             <li><a href="Gamemodes.html#team_deathmatch">Team Deathmatch</a></li>
             <li><a href="Gamemodes.html#bounty_hunter">Bounty Hunter</a></li>
-            <li><a href="Gamemodes.htmlctf_b#">CTF Blitz</a></li>
-            <li><a href="Gamemodes.html#low_gravitiy">Low Gravity</a></li>
+            <li><a href="Gamemodes.html#ctf_blitz">CTF Blitz</a></li>
+            <li><a href="Gamemodes.html#low_gravity">Low Gravity</a></li>
             <li><a href="Gamemodes.html#limited_duel">Limited Duel</a></li>
             <li><a href="Gamemodes.html#no_limits">No Limits</a></li>
         </ul>

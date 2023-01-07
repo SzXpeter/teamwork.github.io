@@ -4,6 +4,11 @@ html, body
     font-family: 'Poppins', sans-serif;
 }
 
+.header span
+{
+    display: none;
+}
+
 .bg-image {
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -46,11 +51,6 @@ html, body
     width: 1920px;
 }
 
-#tank section
-{
-    margin: 0 370px;
-}
-
 #damage .bg-image, #tank .bg-image, #support .bg-image
 {
     background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt555c2f21772e37db/6306c184c9c3a611b66dd76d/1600_Silver_Background.jpg);
@@ -74,17 +74,17 @@ html, body
 
 #damage .ch-img
 {
-    margin: 86vh -70px -85vh 70px;
+    margin: calc(1200px - 19vw) -4vw calc(-1200px - -18.5vw) 4vw;
 }
 
 #support .ch-img
 {
-    margin: 86vh -520px -85vh 520px;
+    margin: calc(1200px - 19vw) -28vw calc(-1200px - -18.5vw) 28vw;
 }
 
 #tank .ch-img
 {
-    margin: 86vh -50px -85vh 50px;
+    margin: calc(1200px - 19vw) -21vw calc(-1200px - -18.5vw) 21vw;
 }
 
 .ch-img:hover 
@@ -169,25 +169,25 @@ html, body
     position: absolute;
 }
 
-header .logo
+.header .logo
 {
     float: left;
-    width: 300px;
+    height: 35px;
     margin-left: 30px;
-    margin-top: -11px;
+    margin-top: 7.5px;
 }
 
-header .logo-s
+.header .logo-s
 {
     float: left;
     width: 0;
+    margin-left: 0px;
 }
 
-header
+.header
 {
     position: fixed;
-    list-style-type: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgba(255, 255, 255, 0.7);
     height: 50px;
     width: 98%;
@@ -197,27 +197,27 @@ header
     z-index: 10;
 }
 
-header li
+.header a
 {
-    display: inline;
-    float: right;
-    margin: 0;
+    float: left;
+    margin-left: -10px;
 }
 
-header li a
+.header .dropdown-content
 {
+    float: right;
     display: block;
     color: #333;
     text-align: center;
     text-decoration: none;
-    margin: -15px 0;
-    padding: 5px 10px;
+    padding: 8px 10px;
+    margin: 2px 10px 2px -10px;
     height: 30px;
     width: 130px;
     border-radius: 15px;
 }
   
-header li a:hover
+.header .dropdown-content:hover
 {
     background-color: rgba(100, 100, 100, 0.5);
     text-decoration: none;
@@ -227,11 +227,6 @@ td img
 {
     width: 100px;
     margin-top: 30px;
-}
-
-header ul
-{
-    margin-right: 20px;
 }
 
 .active
@@ -357,74 +352,6 @@ header ul
     padding-top: 200px;
 }
 
-#gamemodes .bg-image
-{
-    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2021/06/04023112/OW2_Blizzcon_2019_Screenshot_Push_Gameplay_01.jpg);
-    opacity: .8;
-    margin-top: -100px;
-}
-
-#control .bg-image
-{
-    background-image: url(https://primagames.com/wp-content/uploads/2022/10/Best-Controller-Settings-for-Overwatch-2-Settings-Guide.jpg?fit=1200%2C675);
-}
-
-#escort .bg-image
-{
-    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/overwatch-2-maps.jpg);
-}
-
-#hybrid .bg-image
-{
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
-}
-
-#ctf .bg-image
-{
-    background-image: url(https://cdn.mos.cms.futurecdn.net/6Y3b326hAC2BTcE8gLBMxa.jpg);
-}
-
-#elimination .bg-image
-{
-    background-image: url(https://d.newsweek.com/en/full/2128066/overwatch-2-doomfist-pharah-batiste-winston.png);
-}
-
-#deathmatch .bg-image
-{
-    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PLUGPFVKID1504108278330.jpg);
-}
-
-#team_deathmatch .bg-image
-{
-    background-image: url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
-}
-
-#bounty_hunter .bg-image
-{
-    background-image: url(https://i0.wp.com/thegamehaus.com/wp-content/uploads/2021/02/Bounty-Hunter.jpg?fit=1820%2C1024&ssl=1);
-}
-
-#ctf_blitz .bg-image
-{
-    background-image: url(https://www.gamerevolution.com/wp-content/uploads/sites/2/2020/01/Overwatch-2-CTF-Blitz-Mode-Title-Screen.png);
-}
-
-#low_gravity .bg-image
-{
-    background-image: url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-ctf-blitz.jpg);
-}
-
-#limited_duel .bg-image
-{
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/03/OW2_Push.jpg?width=640);
-}
-
-#no_limits .bg-image
-{
-    background-image: url(https://www.gamespot.com/a/uploads/screen_large/1574/15746725/4041442-untitled.png);
-    padding-bottom: 100px;
-}
-
 
 /* PLAY */
 #PLAY
@@ -434,12 +361,12 @@ header ul
 
 #PLAY .bg-image
 {
-    height: 1020px;
+    height: calc(2000px - 48.9vw);
 }
 
 #PLAY .mode
 {
-    height: 1000px;
+    height: calc(2000px - 50vw);
     width: 100%;
     z-index: 0;
     position: relative;
@@ -474,6 +401,12 @@ header ul
     border-collapse: collapse;
     width: 1000px;
     margin: 50px auto;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.resp-table
+{
+    overflow-x: auto;
 }
 
 #PLAY td
@@ -555,22 +488,105 @@ header ul
 
 @media screen and (max-width: 1450px)
 {
-    header .logo
+    .header .logo
     {
         width: 0;
     }
 
-    header .logo-s
+    .header .logo-s
     {
         float: left;
         width: 40px;
         margin-left: 20px;
-        margin-top: -15px;
+        margin-top: 5px;
+    }
+
+    .header span
+    {
+        display: block;
+        /* width: ; */
+    }
+
+    .header .dropdown
+    {
+        float: right;
+        color: #000;
+        width: 130px;
+        margin: 2px 30px;
+        padding: 8px 10px;
+        height: 30px;
+        /* padding-top: 15px; */
+        border-radius: 15px;
+        text-align: center;
+        position: relative;
+    }
+
+    .header .dropdown:hover
+    {
+        background-color: rgba(100, 100, 100, 0.4);
+    }
+      
+    .header .dropdown-content
+    {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 130px;
+        box-shadow: 0px 8px 25px 0px rgba(0,0,0,0.5);
+        z-index: 10;
+        border-radius: 0;
+        margin: 0;
+        margin: 7px -10px -7px 0;
+    }
+
+    .header .dropdown-content:hover
+    {
+        background-color: rgba(150, 150, 150, .9);
+    }
+    
+    .header .dropdown:hover .dropdown-content
+    {
+        display: block;
+    }
+
+    .dropdown-content.active
+    {
+        background-color: rgba(255, 162, 0, 1);
+    }
+
+    .dropdown-content.active:hover
+    {
+        background-color: rgba(159, 80, 0, 0.8);
+    }
+
+    #support .ch-img
+    {
+        margin: calc(1200px - 19vw) -4vw calc(-1200px - -18vw) 4vw;
+    }
+
+    #tank .ch-img
+    {
+        margin: calc(1200px - 19vw) -4vw calc(-1200px - -18vw) 4vw;
     }
 }
 
 @media screen and (max-width: 900px)
 {
+    body
+    {
+        font-size: 11pt;
+    }
+
+    .content
+    {
+        margin-right: 0;
+    }
+
+    .header .dropdown
+    {
+        font-size: 15pt;
+    }
+
     .gamemodecontent
     {
         /* height: 900px; */
@@ -595,5 +611,15 @@ header ul
         width: 96vw;
         margin: -150px 0.2vw 0 0.2vw;
         border-width: 7px;
+    }
+
+    #PLAY .mode
+    {
+        height: calc(1700px - 50vw);
+    }
+
+    #PLAY .bg-image
+    {
+        height: calc(1700px - 44.5vw);
     }
 }
