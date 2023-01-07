@@ -371,7 +371,7 @@ header ul
 
 #escort .bg-image
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0e/OW2_Hybrid.jpg?width=1280);
+    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/overwatch-2-maps.jpg);
 }
 
 #hybrid .bg-image
@@ -397,8 +397,34 @@ header ul
 #team_deathmatch .bg-image
 {
     background-image: url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-team-deathmatch.jpg);
+}
+
+#bounty_hunter .bg-image
+{
+    background-image: url(https://i0.wp.com/thegamehaus.com/wp-content/uploads/2021/02/Bounty-Hunter.jpg?fit=1820%2C1024&ssl=1);
+}
+
+#ctf_blitz .bg-image
+{
+    background-image: url(https://www.gamerevolution.com/wp-content/uploads/sites/2/2020/01/Overwatch-2-CTF-Blitz-Mode-Title-Screen.png);
+}
+
+#low_gravity .bg-image
+{
+    background-image: url(https://www.theloadout.com/wp-content/sites/theloadout/2022/10/overwatch-2-game-modes-ctf-blitz.jpg);
+}
+
+#limited_duel .bg-image
+{
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/03/OW2_Push.jpg?width=640);
+}
+
+#no_limits .bg-image
+{
+    background-image: url(https://www.gamespot.com/a/uploads/screen_large/1574/15746725/4041442-untitled.png);
     padding-bottom: 100px;
 }
+
 
 /* PLAY */
 #PLAY
