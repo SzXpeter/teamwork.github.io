@@ -498,11 +498,34 @@ header ul
     list-style: none;
 }
 
+#arcade li
+{
+    /* width: 50vw; */
+    margin: 20px 0;
+}
+
 #arcade a
 {
     text-decoration: none;
     color: #000;
 }
+
+#arcade li:hover
+{
+    transform: scale(130%);
+    margin-left: 10.5vw;
+    /* margin-right: -12.5vw; */
+    width: 70vw;
+}
+
+/* #maps div
+{
+    height: 1080px;
+    width: 100%;
+    margin-left: -.39vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 @media screen and (max-width: 1450px)
 {
