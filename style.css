@@ -352,7 +352,6 @@ td img
     padding-top: 200px;
 }
 
-
 /* PLAY */
 #PLAY
 {
@@ -714,182 +713,314 @@ td img
 
 #busan
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/80/OW2_Busan_Downtown_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/80/OW2_Busan_Downtown_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #ilois
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/3/38/OW2_Ilios_Lighthouse_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/3/38/OW2_Ilios_Lighthouse_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #lijangtower
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/88/OW2_Lijiang_Tower_Garden.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/88/OW2_Lijiang_Tower_Garden.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #nepal
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/07/OW2_Nepal_Shrine_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/07/OW2_Nepal_Shrine_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #oasis
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/6/60/OW2_Oasis_City_Center_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/6/60/OW2_Oasis_City_Center_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #circuitroyal
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/2d/OW2_Circuit_Royal_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/2d/OW2_Circuit_Royal_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #dorado
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/1/12/OW2_Dorado_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/1/12/OW2_Dorado_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #havana
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/04/OW2_Havana_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/04/OW2_Havana_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #junkertown
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/9/9a/OW2_Junkertown_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/9/9a/OW2_Junkertown_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #rialto
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/27/OW2_Rialto_4.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/27/OW2_Rialto_4.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #route66
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/f/f3/OW2_Route_66_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/f/f3/OW2_Route_66_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #watchpointgibraltar
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/c1/OW2_Watchpoint_Gibraltar_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/c1/OW2_Watchpoint_Gibraltar_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #blizzardworld
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/a/a9/OW2_Blizzard_World_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/a/a9/OW2_Blizzard_World_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #eichenwalde
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/4/4c/OW2_Eichenwalde_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/4/4c/OW2_Eichenwalde_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #hollywood
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/f/fa/OW2_Hollywood_4.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/f/fa/OW2_Hollywood_4.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #kingsrow
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/ca/OW2_Kings_Row_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/ca/OW2_Kings_Row_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #midtown
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/5/5f/OW2_Midtown_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/5/5f/OW2_Midtown_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #numbani
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/02/OW2_Numbani_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/02/OW2_Numbani_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #paraiso
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/7/7f/OW2_Paraiso_4.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/7/7f/OW2_Paraiso_4.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #colosseo
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/24/OW2_Colosseo.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/24/OW2_Colosseo.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #esperanca
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/7/7d/OW2_Esperanca_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/7/7d/OW2_Esperanca_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #nqs
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0c/OW2_New_Queen_Street_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/0/0c/OW2_New_Queen_Street_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #ayutthaya
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/3/36/OW2_Ayutthaya.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/3/36/OW2_Ayutthaya.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #castillo
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/27/OW2_Castillo_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/27/OW2_Castillo_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #cg
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/d5/OW2_Chateau_Guillard_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/d5/OW2_Chateau_Guillard_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #ecoa
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/20/OW2_Ecopoint_Antartica.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/20/OW2_Ecopoint_Antartica.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #kanezaka
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/2f/OW2_Kanezaka_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/2f/OW2_Kanezaka_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #malevento
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/1/1a/OW2_Malevento_2.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/1/1a/OW2_Malevento_2.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #necropolis
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/9/9b/OW2_Necropolis_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/9/9b/OW2_Necropolis_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #petra
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/89/OW2_Petra_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/8/89/OW2_Petra_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #workshop
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/c5/OW2_Workshop_Island.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/c/c5/OW2_Workshop_Island.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #hanamura
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/df/OW2_Hanamura_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/df/OW2_Hanamura_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #hlc
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/5/5c/OW2_Lunar_Colony_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/5/5c/OW2_Lunar_Colony_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #paris
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/db/OW2_Paris_1.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/d/db/OW2_Paris_1.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #toa
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/24/OW2_Anubis.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/2/24/OW2_Anubis.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#blackforest
+{
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/e/e1/OW2_Black_Forest.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #volskaya
 {
-    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/e/e6/OW2_Volskaya_3.jpg?width=814);
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/overwatch-2/e/e6/OW2_Volskaya_3.jpg?width=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#maps
+{
+    color: white;
+    background-color: rgb(197, 90, 32);
+}
+
+#maps .title
+{
+    text-align: center;
+}
+
+#maps td>a
+{
+    color: rgb(206, 206, 206)
 }
 
 /* Gamemodes */
