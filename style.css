@@ -476,14 +476,14 @@ td img
     width: 70vw;
 }
 
-/* #maps div
+#maps.szexpéter
 {
     height: 1080px;
     width: 100%;
     margin-left: -.39vw;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 /* background pictures */
 
@@ -1015,12 +1015,37 @@ td img
 
 #maps .title
 {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
 #maps td>a
 {
     color: rgb(206, 206, 206)
+}
+
+#maps div
+{
+    padding-top: auto;
+    padding-bottom: 100px;
+}
+
+#busan
+{
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+#maps .text
+{
+    width: 50vw;
+    border: 15px solid rgb(255, 89, 0);
+    border-radius: 20%;
+    border-style: outset;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.7);
+    margin-top: 50px;
 }
 
 .text.center
