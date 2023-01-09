@@ -6,7 +6,7 @@
 
 ## Szabó Péter
 - damage
-- skins, battlepass
+- PLAY
 - CSS file
 <br>
 
