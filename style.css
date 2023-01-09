@@ -35,20 +35,59 @@ html, body
 
 .video-bg
 {
-    height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -8px;
-    opacity: 1;
+    margin-left: -20px;
+    bottom: 0;
+    right: 0;
 }
 
-.video-bg video
+#index video
 {
+    margin-top: 588px;
     height: 1080px;
     width: 1920px;
+    margin-left: -8px;
+}
+
+.homepage
+{
+    margin-top: -75px;
+    margin-left: -8px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images2.alphacoders.com/104/1049773.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text1
+{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 450px;
+    font-size: 75px;
+    text-shadow: 2px 4px rgb(44, 44, 44) ;
+}
+
+.text2
+{
+    margin-top: -600px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 540px;
+    font-size: 30px;
+    text-shadow: 2px 4px rgb(44, 44, 44) ;
+}
+
+.indextitle
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -750px;
 }
 
 #damage .bg-image, #tank .bg-image, #support .bg-image
